@@ -1,0 +1,271 @@
+html, body {
+	height: 100%;
+	width: 100%;
+} 
+
+.logo {
+	float: left;
+	width: 160px;
+}
+
+.city {
+	position: absolute;
+	top: 30%;
+	left: 65%;
+}
+
+.pin {
+	margin-right: 5px;
+}
+
+.phone {
+	margin-right: 5px;
+}
+
+.number {
+	position: absolute;
+	top: 20%;
+}
+
+.mainMenu {
+	background-color: #76B721;
+}
+
+.mainMenu button {
+	width: 100%;
+	background-color: #76B721;
+	color: white;
+	font-size: 18px;
+	border: 0;
+	padding: 15px;
+}
+
+.mainMenu button:active {
+	background-color: #599015;
+}
+
+.mainMenu button:hover {
+	cursor: pointer;
+}
+
+.dropdown-menu {
+	width: 100%;
+	border: 0;
+}
+
+.dropdown-menu li {
+	position: relative;
+}
+
+.dropdown-menu li:after {
+	content: '\f105';
+	font-family: FontAwesome;
+	position: absolute;
+	font-size: 25px;
+	right: 0;
+	top: -10%;
+}
+
+.dropdown-item {
+	padding-left: 15px;
+	border-bottom: 2px solid green;
+}
+
+.dropdown-item:hover {
+	background-color: white;
+}
+
+.lines {
+	margin-right: 10px;
+	font-size: 23px !important;
+}
+
+.search {
+	width: 90%;
+}
+
+.search input {
+	width: 80%;
+	background-color: #76B721;
+	border: 0;
+	border-bottom: 1px solid white;
+}
+
+.search input::-moz-placeholder {
+	color: white;
+	font-size: 14px;
+}
+
+.search input::-webkit-input-placeholder {
+	color: white;
+	font-size: 14px;
+}
+
+.search form {
+	float: left;
+	width: 100%;
+}
+
+.search button {
+	width: 10%;
+}
+
+.info {
+	float: left;
+	margin-right: 8px;
+	color: white;
+}
+
+.diler {
+	font-size: 12px;
+	color: white;
+}
+
+.diler, .basket {
+	position: relative;
+	top: 20%;
+}
+
+.selected {
+	position: relative;
+	top: 30%;
+}
+
+.selected, .basket p {
+	font-size: 12px;
+	color: white;
+}
+
+.mainSlider img {
+	width: 100%;
+}
+
+.sales {
+	border: 1px solid gray;
+	height: 100%;
+}
+
+.discount {
+	background-color: #76B721;
+	padding-top: 7px;
+	padding-bottom: 1px;
+	color: white;
+}
+
+.discount-text {
+	padding-top: 10px;
+}
+
+.slider-item {
+	width: 85px;
+}
+
+.item {
+	float: left;
+	border: 1px solid gray;
+}
+
+.like {
+	color: white; 
+	text-shadow: 0 0 5px black; 
+}
+
+.carts {
+	position: relative;
+}
+
+.badges {
+	position: relative;
+}
+
+.addItem {
+	position: absolute;
+	bottom: 0;
+	font-size: 25px;
+}
+
+.addItem:hover {
+	color: black;
+}
+
+.slider-like {
+	position: absolute;
+	bottom: 0;
+}
+
+.peopleChoice {
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+.peopleChoice-text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.services-warning {
+	text-decoration: underline;
+}
+
+.services-link {
+	color: green;
+	text-decoration: underline;
+}
+
+.services-link:hover {
+	color: green;
+}
+
+.footer {
+	background-color: #F5F5F5;
+}
+
+.footer-block {
+	border-top: 2px solid green;
+	margin-top: 4%;
+}
+
+.prev-price {
+	position: absolute;
+	bottom: 0;
+	right: 15%;
+	text-decoration: line-through;
+	opacity: .30;
+}
+
+.economy-text {
+	color: #C8E4A6;
+}
+
+.economy-price {
+	background-color: #76B721;
+	color: white;
+	font-size: 16px;
+}
+
+.badge {
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+    position: absolute;
+	left: 45%;
+    border-radius: 60%;
+    height: 20px;
+    width: 20px;
+    background-color: #76B721;
+	padding: 0;
+}
+
+#slider-badge {
+	left: 35%;
+}
+
+#info-badge {
+	background-color: white;
+	color: black;
+	font-weight: normal;
+	font-size: 12px;
+	height: 13px;
+    width: 13px;
+	left: 10%;
+}

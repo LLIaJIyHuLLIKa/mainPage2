@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>ЭкоПолив</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+		<link rel="stylesheet" type="text/css" href="css/slick.css">
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	</head>
+	
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				&nbsp;
+			</div>
+			
+			<div class="row">				
+				<div class="col-md-3 offset-md-2">
+					<div style="margin-left: 5%">
+						<img src="images/logo.jpg" class="logo">
+						
+						<p class="city"><span class="pin"><img src="images/pin.jpg"></span><small>Симферополь</small></p>
+					</div>
+				</div>
+				
+				<div class="col-md-4 offset-md-1">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						<div class="collapse navbar-collapse" id="navbarMenu">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a href="#" class="nav-link"><small class="navigation-link">Все товары</small></a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link"><small class="navigation-link">О нас</small></a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link"><small class="navigation-link">Доставка/Оплата</small></a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link"><small class="navigation-link">Контакты</small></a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				
+				<div class=" col-md-2">
+					<div class="number">
+						<p><span class="phone"><img src="images/phone.jpg"></span>+7 (978) 205-888-2</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row mainMenu">
+				<div class="col-md-3 offset-md-1">
+					<div class="dropdown">
+						<button type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-bars lines" aria-hidden="true"></i><span class="buttonText">ВЕСЬ КАТАЛОГ</span>
+						</button>
+						
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<li><a class="dropdown-item" href="#">Автоматический полив</a></li>
+							<li><a class="dropdown-item" href="#">Компрессионный фитинг</a></li>
+							<li><a class="dropdown-item" href="#">Резьбовой фитинг</a></li>
+							<li><a class="dropdown-item" href="#">Колодцы</a></li>
+							<li><a class="dropdown-item" href="#">Фильтры</a></li>
+							<li><a class="dropdown-item" href="#">Капельный полив</a></li>
+							<li><a class="dropdown-item" href="#">Lay Flat</a></li>
+							<li><a class="dropdown-item" href="#">Насосы</a></li>
+							<li><a class="dropdown-item" href="#">Инструмент</a></li>
+							<li><a class="dropdown-item" href="#">Сервис</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="search">
+						<form>
+							<input type="text" id="searchInput" placeholder="Найти оборудование для идеального газона">
+							<span><button type="submit"><i class="fa fa-search"></i></button></span>
+						</form>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="diler">
+								<span class="info">
+									<i class="fa fa-check-circle" style="font-size: 20px"></i>
+								</span>
+								
+								<p>Официальный дистрибьютор</br><b>Hunter</b> в Крыму</p>
+							</div>
+						</div>
+						
+						<div class="col-md-3">
+							<div class="selected">
+								<a href="#">
+									<span class="info">
+										<i class="fa fa-heart" style="font-size: 18px"></i>
+									</span>
+								
+									<p style="color: white">Избранное</p>
+								</a>
+							</div>
+						</div>
+						
+						<div class="col-md-3">
+							<div class="basket">
+								<a href="#">
+									<span class="info">
+										<img src="images/shopping-cart-1.png">
+										<span class="badge" id="info-badge">0</span>
+									</span>
+									
+									<p>Нет товаров</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-8 offset-md-4" style="padding: 0">
+					<div class="row" style="margin-top: 5px; margin-left: 0; margin-right: 0">
+						<div class="col-md-8" style="padding: 0">
+							<div class="mainSlider">
+								<div><img src="images/slider.jpg"></div>
+								<div><img src="images/slider.jpg"></div>
+								<div><img src="images/slider.jpg"></div>
+								<div><img src="images/slider.jpg"></div>
+							</div>
+						</div>
+						
+						<div class="col-md-4">
+							<div class="sales">
+								<div class="row">
+									<div class="col-md-3 offset-md-1">
+										<div class="discount" align="center">
+											<p><b>-20%</b></p>
+										</div>
+									</div>
+									
+									<div class="col-md-8">
+										<div class="discount-text">
+											<p><b>ТОЛЬКО СЕГОДНЯ</b></p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row">
+									&nbsp;
+								</div>
+								
+								<div class="row">
+									&nbsp;
+								</div>
+								
+								<div class="row saleItems">
+									<div class="col-md-10 offset-md-1">
+										<div class="secondSlider">
+											<div class="container">
+												<div class="row saleItem">
+													<div class="col-md-3 col-lg-3">
+														<img src="images/controller.jpg" class="slider-item">
+													</div>
+													
+													<div class="col-md-8 offset-md-1">
+														<div class="row">
+															<div class="col-md-6" style="position: relative">
+																<small class="prev-price" style="right: 5%">8696 p.</small>
+															</div>
+															
+															<div class="col-md-6">
+																<div class="row">
+																	<div class="col-md-12" align="center" style="padding: 0">
+																		<small class="economy-text">ЭКОНОМИЯ</small>
+																	</div>
+																</div>
+																	
+																<div class="row">
+																	<div class="col-md-12 economy-price" align="center">
+																		<small><b>1766 p.</b></small>
+																	</div>
+																</div>
+															</div>
+														</div>
+														
+														<div class="row">
+															<div class="col-md-12" align="right">
+																<h3 class="real-price"><b>6 930 р.</b></h3>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+												<div class="row">
+													<div class="col-md-8">
+														<small class="saleItem-text">Контроллер внутренний ХС-401i-E Hunter XC401iE</small>
+													</div>
+													
+													<div class="col-md-1 badges">
+														<a href="#" class="addItem">
+															<img src="images/shopping_cart.jpg" style="width: 22px">
+															<span class="badge" id="slider-badge">+</span>
+														</a>
+													</div>
+													
+													<div class="col-md-2 badges">
+														<i class="fa fa-heart like slider-like" style="font-size: 20px"></i>
+													</div>
+												</div>
+											</div>
+											
+											<div class="container">
+												<div class="row saleItem">
+													<div class="col-md-3">
+														<img src="images/controller.jpg" class="slider-item">
+													</div>
+													
+													<div class="col-md-8 offset-md-1">
+														<div class="row">
+															<div class="col-md-6" style="position: relative">
+																<small class="prev-price" style="right: 5%">8696 p.</small>
+															</div>
+															
+															<div class="col-md-6">
+																<div class="row">
+																	<div class="col-md-12" align="center" style="padding: 0">
+																		<small class="economy-text">ЭКОНОМИЯ</small>
+																	</div>
+																</div>
+																	
+																<div class="row">
+																	<div class="col-md-12 economy-price" align="center">
+																		<small><b>1766 p.</b></small>
+																	</div>
+																</div>
+															</div>
+														</div>
+														
+														<div class="row">
+															<div class="col-md-12" align="right">
+																<h3 class="real-price"><b>6 930 р.</b></h3>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+												<div class="row">
+													<div class="col-md-8">
+														<small class="saleItem-text">Контроллер внутренний ХС-401i-E Hunter XC401iE</small>
+													</div>
+													
+													<div class="col-md-1 badges">
+														<a href="#" class="addItem">
+															<img src="images/shopping_cart.jpg" style="width: 22px">
+															<span class="badge" id="slider-badge">+</span>
+														</a>
+													</div>
+													
+													<div class="col-md-2 badges">
+														<i class="fa fa-heart like slider-like" style="font-size: 20px"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row">
+									&nbsp;
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				&nbsp;
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 offset-md-2">
+					<h5><b>ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</b></h5>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 offset-md-2">
+					<div class="container item">						
+						<div class="row" style="margin-top: 10px">
+							<div class="col-md-2 offset-md-9">
+								<i class="fa fa-heart like"></i>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12" align="center" style="margin-top: 10px">
+								<img src="images/sensor.jpg">
+							</div>
+						</div>
+						
+						<div class="row">
+							&nbsp;
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<small>Датчик дождя Rain-Clik Hunter RAINCLIK</small>
+							</div>
+						</div>
+						
+						<div class="row">
+							&nbsp;
+						</div>
+						
+						<div class="row" style="margin-bottom: 10px">
+							<div class="col-md-9">
+								<div class="row">
+									<div class="col-md-6" style="position: relative">
+										<small class="prev-price">8696 p.</small>
+									</div>
+									
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-md-12" align="center" style="padding: 0">
+												<small class="economy-text">ЭКОНОМИЯ</small>
+											</div>
+										</div>
+											
+										<div class="row">
+											<div class="col-md-12 economy-price" align="center">
+												<small><b>1766 p.</b></small>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-12">
+										<h3 class="real-price"><b>6 930 р.</b></h3>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-2 carts">
+								<a href="#" class="addItem">
+									<img src="images/shopping_cart.jpg" style="width: 22px">
+									<span class="badge">+</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>			
+		</div>
+		
+		<div class="container-fluid">			
+			<div class="row peopleChoice">
+				<div class="col-md-3 offset-md-2">
+					<h5 class="peopleChoice-text"><b>ВЫБОР ПОКУПАТЕЛЕЙ</b></h5>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 offset-md-2">
+					<div class="container item">						
+						<div class="row" style="margin-top: 10px">
+							<div class="col-md-2 offset-md-9">
+								<i class="fa fa-heart like"></i>
+							</div>
+						</div>
+						
+						<div class="row" style="margin-top: 10px">
+							<div class="col-md-12" align="center">
+								<img src="images/sunSensor.jpg">
+							</div>
+						</div>
+						
+						<div class="row">
+							&nbsp;
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<small>Датчик солнечной активности SolarSync Hunter SOLARSYNCSEN</small>
+							</div>
+						</div>
+						
+						<div class="row">
+							&nbsp;
+						</div>
+						
+						<div class="row" style="margin-bottom: 10px">
+							<div class="col-md-9">
+								<h3 class="real-price"><b>10 296 p.</b></h3>
+							</div>
+							
+							<div class="col-md-2 carts">
+								<a href="#" class="addItem">
+									<img src="images/shopping_cart.jpg" style="width: 22px">
+									<span class="badge">+</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>			
+		</div>
+		
+		<div class="container-fluid">			
+			<div class="row">
+				<div class="col-md-3 offset-md-2">
+					<h5><b>Вы НЕДАВНО СМОТРЕЛИ:</b></h5>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 offset-md-2">
+					<div class="container item">						
+						<div class="row" style="margin-top: 10px">
+							<div class="col-md-2 offset-md-9">
+								<i class="fa fa-heart like"></i>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12" align="center">
+								<img src="images/wetSensor.jpg">
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<small>Датчик влажности SOILCLIK Hunter SOILCLIK</small>
+							</div>
+						</div>
+						
+						<div class="row" style="margin-bottom: 10px">
+							<div class="col-md-9">
+								<div class="row">
+									<div class="col-md-6" style="position: relative">
+										<small class="prev-price">16122 p.</small>
+									</div>
+									
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-md-12" align="center" style="padding: 0">
+												<small class="economy-text">ЭКОНОМИЯ</small>
+											</div>
+										</div>
+											
+										<div class="row">
+											<div class="col-md-12 economy-price" align="center">
+												<small><b>3252 p.</b></small>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-12">
+										<h3 class="real-price"><b>12 870 р.</b></h3>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-2 carts">
+								<a href="#" class="addItem">
+									<img src="images/shopping_cart.jpg" style="width: 22px">
+									<span class="badge">+</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>			
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-7 offset-md-2">
+					<h4><b>МАТЕРИАЛЫ ДЛЯ СИСТЕМЫ АВТОПОЛИВА, КАПЕЛЬНОГО ПОЛИВА ОТ ПРОИЗВОДИТЕЛЕЙ HUNTER, IRRITEC, METZERPLAS, AMIAD</b></h4>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>
+			
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<h5>Уважаемые клиенты!</h5>
+					<p>Интернет - магазин "Экотеплополив" предлагает профессиональное оборудование от известных производителей для систем автоматического полива, для капельного орошения, котельное и насосное оборудование, системы фильтрации. Все товары имеют высокое качество и соответствуют мировым стандартам. А так же все сопутствующие услуги по расчёту, монтажу и обслуживанию.</p>
+					<br/>
+					<h4>Мы предлагаем:</h4>
+					
+					<ul>
+						<li>Широкий ассортимент товаров в наличии;</li>
+						<li>Профессиональную консультацию по техническим и практическим сторонам вопроса;</li>
+						<li>Низкие цены на качественные товары;</li>
+						<li>Расчёт сметы по конкретным объектам (оборудование и монтаж);</li>
+						<li>Профессиональный монтаж с последующим обслуживанием;</li>
+						<li>Отгрузка в день оплаты или на следущий ( для жителей Крыма, для регионов согласно выбранной транспортной компании);</li>
+						<li>Любой удобный вариант оплаты и отправки товара;</li>
+						<li>Четкое выполнение всех взятых на себя обязательств.</li>
+					</ul>
+					
+					<br/>
+					<p class="services-warning">Покупая продукцию в интернет-магазине "Экотеплополив", вы сэкономите драгоценное время для других важных дел.</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				&nbsp;
+			</div>
+			
+			<div class="row">
+				<div class="col-md-9 offset-md-2">
+					<div class="row">
+						<div class="col-md-1" align="center">
+							<a href="#" class="services-link">О нас</a>
+						</div>
+						
+						<div class="col-md-4" align="center">
+							<a href="#" class="services-link">Купить капельное орошение в Крыму</a>
+						</div>
+						
+						<div class="col-md-3" align="center">
+							<a href="#" class="services-link">Капельный полив в теплице</a>
+						</div>
+						
+						<div class="col-md-2" align="center">
+							<a href="#" class="services-link">Автоматический полив газона</a>
+						</div>
+						
+						<div class="col-md-1" align="center">
+							<a href="#" class="services-link">Дачный полив</a>
+						</div>
+						
+						<div class="col-md-1" align="center">
+							<a href="#" class="services-link">Контакты</a>
+						</div>
+					</div>
+					
+					<div class="row">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row footer">				
+				<div class="col-md-6 offset-md-2 footer-block">
+					<div class="row">
+						&nbsp;
+					</div>
+					
+					<div class="row">
+						<div class="col-md-4">
+							<h4><b>ПОКУПАТЕЛЮ:</b></h4>
+							<p style="font-size: 14px">Доставка и оплата<br/>Соглашение<br/>Политика конфиденциальности</p>
+							
+							<p style="font-size: 14px">ИП Самойлова Марина Васильевна<br/>ИНН 911112940735<br/>ОГРНИП 318911200041720</p>
+						</div>
+						
+						<div class="col-md-7 offset-md-1">
+							<h4><b>ДОСТАВКА ПО КРЫМУ:</b></h4>
+							<p style="font-size: 14px">Бахчисарай, Белогорск, Вилино, Гаспра, Гвардейское, Грэсовский, Гурзуф, Джанкой, Евпатория, Зуя, Инкерман, Керчь, Кировское, Коктебель, Кореиз, Красногвардейское, Красноперекопск, Ленино, Массандра, Мирное, Молодежное, Нижнегорский, Новофедоровка, Октябрьское, Партенит, Первомайское, Петровка, Пионерское, Приморский, Раздольное, Саки, Советский, Старый Крым, Судак, Укромное, Феодосия, Черноморское, Чистенькое, Щелкино, Ялта и др.</p>
+						</div>
+					</div>
+					
+					<div class="row">
+						&nbsp;
+					</div>
+					
+					<div class="row">
+						<div class="col-md-12">
+							<small>Пользуясь данным ресурсом вы принимаете данное <a href="#" class="services-link" style="text-decoration: none">соглашение</a> и <a href="#" class="services-link" style="text-decoration: none">политику конфиденциальности</a></small> 
+						</div>
+					</div>
+					
+					<div class="row">
+						&nbsp;
+					</div>
+				</div>
+				
+				<div class="col-md-2 offset-md-1 footer-block">
+					<div class="row">
+						&nbsp;
+					</div>
+					
+					<h4><b>КОНТАКТНАЯ ИНФОРМАЦИЯ</b></h4>
+					<h5><b>+7(978)205-888-2</b></h5>
+					<p style="font-size: 14px">Прием звонков:<br/>10:00 - 17:00 (MCK)</p>
+					<h5><a href="#" class="services-link">ECO-POLIV@MAIL.RU</a></h5>
+					<h5><b>Адрес магазина:</b></h5>
+					<p style="font-size: 14px">г. Симферополь,<br/>ул. Севастопольская,<br/>245 Б(2 этаж)</p>
+				</div>
+			</div>
+		</div>
+					
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/slide.js"></script>
+	</body>
+</html>

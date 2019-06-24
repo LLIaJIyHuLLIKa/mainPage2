@@ -1,0 +1,188 @@
+@media only screen and (min-width: 1224px) {
+	.dropdown {
+		width: 57%;
+		margin-left: 37%;
+	}
+	
+	.dropdown-menu {
+		font-size: 13px;
+	}
+	
+	.search input::-moz-placeholder {
+		font-size: 14px;
+	}
+
+	.search input::-webkit-input-placeholder {
+		font-size: 14px;
+	}
+
+	.mainSlider {
+		width: 98%;
+	}
+	
+	.saleItem-text {
+		font-size: 10px;
+	}
+
+	#slider-badge {
+		bottom: 60%;
+	}
+	
+	.item {
+		width: 63%;
+	}
+}
+
+@media only screen and (min-width: 1365px) {
+	.dropdown {
+		width: 60%;
+		margin-left: 37%;
+	}
+	
+	.dropdown-menu {
+		font-size: 13px;
+	}
+	
+	.search input::-moz-placeholder {
+		font-size: 14px;
+	}
+
+	.search input::-webkit-input-placeholder {
+		font-size: 14px;
+	}
+
+	.mainSlider {
+		width: 100%;
+	}
+	
+	.saleItem-text {
+		font-size: 10px;
+	}
+
+	#slider-badge {
+		bottom: 60%;
+	}
+	
+	.item {
+		width: 63%;
+	}
+	
+	.diler, .selected, .basket p {
+		font-size: 10px;
+	}
+	
+	.search input::-moz-placeholder {
+		font-size: 12px;
+	}
+
+	.search input::-webkit-input-placeholder {
+		font-size: 12px;
+	}
+	
+	.prev-price {
+		font-size: 12px;
+	}
+
+	.economy-text {
+		font-size: 12px;
+	}
+
+	.economy-price {
+		font-size: 12px;
+	}
+	
+	.real-price {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 1824px) {
+	.dropdown {
+		width: 45%;
+		margin-left: 35%;
+	}
+	
+	.buttonText {
+		font-size: 24px;
+	}
+	
+	.search input::-moz-placeholder {
+		font-size: 18px;
+	}
+
+	.search input::-webkit-input-placeholder {
+		font-size: 18px;
+	}
+	
+	.mainSlider {
+		width: 100%;
+	}
+	
+	.secondSlider {
+		height: 100%;
+	}
+	
+	.discount p {
+		font-size: 23px;
+	}
+	
+	.discount-text {
+		font-size: 28px;
+	}
+	
+	.saleItem-text {
+		font-size: 15px;
+	}
+	
+	.saleItems {
+		height: 70%;
+	}
+	
+	.saleItem {
+		height: 70%;
+	}
+	
+	.slider-item {
+		width: 140px;
+	}
+	
+	.slick-list {
+		height: 100%;
+	}
+	
+	.slick-track {
+		height: 100%;
+	}
+	
+	.badge {
+		bottom: 50%;
+	}
+	
+	.diler, .selected, .basket p {
+		font-size: 18px;
+	}
+	
+	.basket img {
+		width: 25px;
+	}
+	
+	.dropdown-menu {
+		font-size: 15px;
+	}
+	
+	.item {
+		width: 50%;
+	}
+	
+	.item small {
+		font-size: 15px;
+	}
+	
+	.navigation-link {
+		font-size: 18px;
+	}
+	
+	.city small {
+		font-size: 16px;
+	}
+}
